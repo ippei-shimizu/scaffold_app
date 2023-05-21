@@ -1,3 +1,4 @@
+# コントローラーにはリクエストに対する処理が書かれているアクションと呼ばれるメソッドが定義されている。
 class UsersController < ApplicationController
   before_action :set_user, only: %i[ show edit update destroy ]
 
